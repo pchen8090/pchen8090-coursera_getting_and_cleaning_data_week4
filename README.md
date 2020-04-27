@@ -19,3 +19,5 @@ In run_analysis.R, the code does following things:
 5. we remove the numbers from column names in tb4
 
 6. we generate a new summary table, which is the mean of all culumns of tb4 group by activities
+
+7. Finally, save the generated summary data.
