@@ -34,4 +34,5 @@ colnames(tb4) <- gsub("^[0-9]+ +","",names(tb4))
 summary <- group_by(tb4,activity) %>% summarize_all(mean)
 
 write.csv(summary,"summary.csv")
+txt <- write.table(summary,file="summary.txt",row.names = FALSE)
 
