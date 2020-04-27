@@ -1,0 +1,77 @@
+In generated table summary, we have following data:
+
+activity,current activity
+tBodyAcc-mean()-X,mean value
+tBodyAcc-mean()-Y,mean value
+tBodyAcc-mean()-Z,mean value
+tBodyAcc-std()-X,mean value
+tBodyAcc-std()-Y,mean value
+tBodyAcc-std()-Z,mean value
+tGravityAcc-mean()-X,mean value
+tGravityAcc-mean()-Y,mean value
+tGravityAcc-mean()-Z,mean value
+tGravityAcc-std()-X,mean value
+tGravityAcc-std()-Y,mean value
+tGravityAcc-std()-Z,mean value
+tBodyAccJerk-mean()-X,mean value
+tBodyAccJerk-mean()-Y,mean value
+tBodyAccJerk-mean()-Z,mean value
+tBodyAccJerk-std()-X,mean value
+tBodyAccJerk-std()-Y,mean value
+tBodyAccJerk-std()-Z,mean value
+tBodyGyro-mean()-X,mean value
+tBodyGyro-mean()-Y,mean value
+tBodyGyro-mean()-Z,mean value
+tBodyGyro-std()-X,mean value
+tBodyGyro-std()-Y,mean value
+tBodyGyro-std()-Z,mean value
+tBodyGyroJerk-mean()-X,mean value
+tBodyGyroJerk-mean()-Y,mean value
+tBodyGyroJerk-mean()-Z,mean value
+tBodyGyroJerk-std()-X,mean value
+tBodyGyroJerk-std()-Y,mean value
+tBodyGyroJerk-std()-Z,mean value
+tBodyAccMag-mean(),mean value
+tBodyAccMag-std(),mean value
+tGravityAccMag-mean(),mean value
+tGravityAccMag-std(),mean value
+tBodyAccJerkMag-mean(),mean value
+tBodyAccJerkMag-std(),mean value
+tBodyGyroMag-mean(),mean value
+tBodyGyroMag-std(),mean value
+tBodyGyroJerkMag-mean(),mean value
+tBodyGyroJerkMag-std(),mean value
+fBodyAcc-mean()-X,mean value
+fBodyAcc-mean()-Y,mean value
+fBodyAcc-mean()-Z,mean value
+fBodyAcc-std()-X,mean value
+fBodyAcc-std()-Y,mean value
+fBodyAcc-std()-Z,mean value
+fBodyAccJerk-mean()-X,mean value
+fBodyAccJerk-mean()-Y,mean value
+fBodyAccJerk-mean()-Z,mean value
+fBodyAccJerk-std()-X,mean value
+fBodyAccJerk-std()-Y,mean value
+fBodyAccJerk-std()-Z,mean value
+fBodyGyro-mean()-X,mean value
+fBodyGyro-mean()-Y,mean value
+fBodyGyro-mean()-Z,mean value
+fBodyGyro-std()-X,mean value
+fBodyGyro-std()-Y,mean value
+fBodyGyro-std()-Z,mean value
+fBodyAccMag-mean(),mean value
+fBodyAccMag-std(),mean value
+fBodyBodyAccJerkMag-mean(),mean value
+fBodyBodyAccJerkMag-std(),mean value
+fBodyBodyGyroMag-mean(),mean value
+fBodyBodyGyroMag-std(),mean value
+fBodyBodyGyroJerkMag-mean(),mean value
+fBodyBodyGyroJerkMag-std(),mean value
+
+P.S.
+
+"The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.",
+
+"Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).",
+
+"Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).",
